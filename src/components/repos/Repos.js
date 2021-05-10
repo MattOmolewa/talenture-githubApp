@@ -15,7 +15,13 @@ const Repos = ({ repos, loading }) => {
   }
   return (
     <div>
-      <h2 style={{ color: "rgb(96, 108, 118)", marginBottom: "10px" }}>
+      <h2
+        style={{
+          color: "rgb(96, 108, 118)",
+          marginBottom: "10px",
+          marginLeft: "12px",
+        }}
+      >
         {repos.length} repositories
       </h2>
       {repos.map((repo) => {
