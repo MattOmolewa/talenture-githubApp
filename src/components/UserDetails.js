@@ -54,7 +54,7 @@ const UserDetails = (props) => {
                 </p>
               )}
               <a className="outlink" href={user.html_url} target="_blank">
-                <button>Github</button>
+                <button style={{ fontSize: "16px" }}>Github</button>
               </a>
             </div>
           </article>
