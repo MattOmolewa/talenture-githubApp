@@ -32,7 +32,7 @@ const RepoItem = ({ repo }) => {
           justifyContent: "space-between",
         }}
       >
-        <span>🛠{repo.language}</span>
+        <span>🛠 {repo.language}</span>
         <span>🕐 Updated: {lastUpdated(repo.created_at)}</span>
       </p>
     </div>
