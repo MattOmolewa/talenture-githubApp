@@ -249,6 +249,7 @@ input.error {
   background-color: #54ace7;
   border: 1px solid $app-border;
   padding: 13px 50px;
+  font-size: 16px;
   border-radius: 3px;
   color: #f5f6f7;
   margin-top: 5px;
@@ -268,7 +269,7 @@ input.error {
 
   .col-1 {
     // max-width: 20%;
-    flex: 0 1 27%;
+    flex: 1 0 27%;
     .profile {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
@@ -321,8 +322,8 @@ input.error {
   }
   .col-2 {
     // max-width: 60%;
-    flex: 0 1 62%;
-    margin-left: 10px;
+    flex: 1 0 62%;
+    margin: 0 4%;
 
     .list {
       background-color: #f0f8ff;
