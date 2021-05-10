@@ -269,6 +269,8 @@ input.error {
 
   .col-1 {
     // max-width: 20%;
+    margin: 20px;
+
     flex: 1 0 27%;
     .profile {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -285,7 +287,7 @@ input.error {
       .profile__img {
         // padding: 6px;
         // margin-top: 10px;
-        width: 500px;
+        width: 300px;
         margin: 0 auto;
       }
       .profile__text {
@@ -331,6 +333,7 @@ input.error {
       margin-bottom: 15px;
       transition: all 0.4s;
       border-radius: 5px;
+      margin: 10px;
 
       &:hover {
         background-color: #fff;
