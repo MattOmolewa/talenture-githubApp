@@ -1,6 +1,7 @@
 import React from "react";
 import GithubContext from "../../context/GithubContext";
 import LoadingSpinner from "../spinners/LoadingSpinner";
+import PropTypes from "prop-types";
 import RepoItem from "./RepoItem";
 
 const Repos = ({ repos, loading }) => {
@@ -22,6 +23,11 @@ const Repos = ({ repos, loading }) => {
       })}
     </div>
   );
+};
+
+Repos.propTypes = {
+  repos: PropTypes.array.isRequired,
+  loading: PropTypes.bool,
 };
 
 export default Repos;

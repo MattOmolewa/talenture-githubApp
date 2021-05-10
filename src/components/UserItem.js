@@ -2,6 +2,7 @@ import React from "react";
 import { FaUser, FaUserTimes } from "react-icons/fa";
 import { RiAdminFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const UserItem = ({ user }) => {
   return (
@@ -26,6 +27,10 @@ const UserItem = ({ user }) => {
       </div>
     </article>
   );
+};
+
+UserItem.propTypes = {
+  user: PropTypes.object.isRequired,
 };
 
 export default UserItem;

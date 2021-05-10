@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { FaLock, FaUnlock, FaStar } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 const RepoItem = ({ repo }) => {
   //   let history = React.useHistory();
@@ -36,6 +37,10 @@ const RepoItem = ({ repo }) => {
       </p>
     </div>
   );
+};
+
+RepoItem.propTypes = {
+  repo: PropTypes.object.isRequired,
 };
 
 export default RepoItem;
