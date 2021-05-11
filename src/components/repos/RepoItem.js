@@ -16,6 +16,7 @@ const RepoItem = ({ repo }) => {
       <p className="rating">
         <span>
           {repo.stargazers_count}
+          {"  "}
           <FaStar color={"#00c786"} />
         </span>
         <span>
