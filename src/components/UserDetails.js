@@ -54,11 +54,7 @@ const UserDetails = (props) => {
               {user.blog && (
                 <p>
                   <AiOutlineLink color="#4464AD" /> {"  "}
-                  <a
-                    href={`https://${user.blog}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={user.blog} target="_blank" rel="noopener noreferrer">
                     {user.blog}
                   </a>
                 </p>

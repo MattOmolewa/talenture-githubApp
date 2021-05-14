@@ -5,11 +5,6 @@ import PropTypes from "prop-types";
 import RepoItem from "./RepoItem";
 
 const Repos = ({ repoNum, repos, loading }) => {
-  //   console.log(repos);
-  //   if (loading) {
-  //     console.log("im in spinner");
-  //     return <LoadingSpinner />;
-  //   }
   if (loading) {
     return <p>loading...</p>;
   }
@@ -32,6 +27,7 @@ const Repos = ({ repoNum, repos, loading }) => {
 };
 
 Repos.propTypes = {
+  repoNum: PropTypes.string.isRequired,
   repos: PropTypes.array.isRequired,
   loading: PropTypes.bool,
 };
