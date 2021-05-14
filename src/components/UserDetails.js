@@ -75,7 +75,7 @@ const UserDetails = (props) => {
           </article>
         </div>
         <div className="col-2">
-          <Repos repos={repos} loading={loading} />
+          <Repos repoNum={user.public_repos} repos={repos} loading={loading} />
         </div>
       </div>
     </>

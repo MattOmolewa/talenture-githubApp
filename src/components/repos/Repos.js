@@ -4,7 +4,7 @@ import LoadingSpinner from "../spinners/LoadingSpinner";
 import PropTypes from "prop-types";
 import RepoItem from "./RepoItem";
 
-const Repos = ({ repos, loading }) => {
+const Repos = ({ repoNum, repos, loading }) => {
   //   console.log(repos);
   //   if (loading) {
   //     console.log("im in spinner");
@@ -22,7 +22,7 @@ const Repos = ({ repos, loading }) => {
           marginLeft: "12px",
         }}
       >
-        {repos.length} repositories
+        {repoNum} repositories
       </h2>
       {repos.map((repo) => {
         return <RepoItem key={repo.html_url} repo={repo} />;
