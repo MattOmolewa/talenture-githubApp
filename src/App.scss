@@ -199,6 +199,8 @@ input.error {
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     background: #fff;
+    transform: scale(0.97);
+    opacity: 0.95;
   }
   .card__img {
     margin: 0 auto;
@@ -327,6 +329,8 @@ input.error {
       &:hover {
         background-color: #fff;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transform: scale(0.99);
+        opacity: 0.99;
       }
       h2 {
         margin-top: 10px;

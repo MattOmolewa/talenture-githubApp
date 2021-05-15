@@ -14,8 +14,6 @@ function App() {
           <div className="container">
             <Header />
             <ResultCanvas />
-
-            {/* <Route render={() => <Redirect to="/" />} /> */}
           </div>
         </div>
       </GithubState>
