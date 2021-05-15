@@ -201,14 +201,10 @@ input.error {
     background: #fff;
   }
   .card__img {
-    padding: 6px;
-    margin-top: 10px;
-    width: 250px;
     margin: 0 auto;
   }
   .card__text {
     text-align: center;
-    padding: 10px 0;
   }
   img {
     width: 100%;
@@ -218,10 +214,6 @@ input.error {
     font-size: 24px;
     color: rgb(187, 46, 31);
     margin: 15px;
-
-    // a {
-    //   color: rgb(187, 46, 31);
-    // }
   }
   p {
     font-size: 16px;
@@ -235,7 +227,7 @@ input.error {
     border-radius: 3px;
     font-size: 18px;
     color: #f5f6f7;
-    margin-top: 8%;
+    margin-top: 10px;
 
     &:hover {
       color: #fff;
